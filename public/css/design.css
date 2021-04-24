@@ -137,7 +137,7 @@ img {
     background-color: #ffffff;
     padding: 20px;
     color: var(--black);
-    display: flex;
+    display: block;
     margin: 5px;
     justify-content: center;
 }
@@ -203,7 +203,7 @@ main form button:active{
     background-color: #054D6A;
 }
 main form .msg{
-    font-size: 1.8em;
+    font-size: 0.8em;
     color: rgb(88, 1, 1);
     margin-left: 20px;
 }
@@ -296,6 +296,11 @@ main ul li a{
     }
     main ul{
         grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #mainProfile{
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
     }
 }
 @media screen and (min-width: 1280px){
