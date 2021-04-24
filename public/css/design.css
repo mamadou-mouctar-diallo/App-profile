@@ -108,12 +108,15 @@ img {
     align-items: center;
 }
 #devInfo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    color: var(--black);
+    display: block;
+    margin: 5px;
+    justify-content: center;
 }
 #devInfo > div{
-    /* z-index: -100; */
+    margin: 20px;
 
 }
 #devInfo div div:last-child{
@@ -277,9 +280,11 @@ main ul li a{
     main ul{
         grid-template-columns: repeat(2, 1fr);
     }
-    #devInfo > div > div > img{
-        width: auto;
-        height: auto;
+    
+    #devInfo{
+        grid-template-columns: repeat(1, 1fr);
+        display: block;
+        justify-content: space-between;
     }
 }
 @media screen and (min-width: 1024px){
@@ -299,8 +304,14 @@ main ul li a{
     }
     
     #mainProfile{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         display: flex;
+        justify-content: center;
+    }
+    #devInfo{
+        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        justify-content: center;;
     }
 }
 @media screen and (min-width: 1280px){
