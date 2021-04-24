@@ -3,7 +3,7 @@ const developers = [
     {
       '_id': '1',
       'name': 'Mouctar Diallo',
-      'title': 'Web full Stack developper',
+      'title': 'Web full Stack developer',
       'image': '/images/image-1.jpeg',
       'description': 'I have been working with web development since 2017, the period during which I have worked in different environments. I am a self-motivated and self-taught professional who likes to solve problems.I merge a passion for usability and user experience with technical knowledge to create cool digital experiences. My repertoire includes programming languages and tools such as ReactJS, JavaScript (ES5&6 and CommJs), React-Native, Wordpress, Django/python, MySQL, PostgreSQL, Nginx and Apache server, NodeJs, SASS, LESS, Twitter Bootstrap,  jQuery, and more.'
       ,'eduction': ["2011-2013: Bachelor degree in Guinea","2013-2017: Undergraduate degree Computer Sciences in Guinea","2020-2021: Undergradute degree Computer Sciences in France"]

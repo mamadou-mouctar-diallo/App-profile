@@ -306,6 +306,7 @@ main ul li a{
     #mainProfile{
         grid-template-columns: repeat(4, 1fr);
         display: flex;
+        justify-content: center;
     }
     #devInfo{
         grid-template-columns: repeat(4, 1fr);
