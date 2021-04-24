@@ -281,11 +281,6 @@ main ul li a{
         grid-template-columns: repeat(2, 1fr);
     }
     
-    #devInfo{
-        grid-template-columns: repeat(1, 1fr);
-        display: block;
-        justify-content: space-between;
-    }
 }
 @media screen and (min-width: 1024px){
     main form{
